@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photoblog</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li>
-                    <a href="">LIFESTYLE</a>
+    <header class="header">
+        <a class="header-link" href="./">
+            <img class="header-link-img"
+                src="https://img.icons8.com/officel/40/stack-of-photos.png" 
+                alt="Logo Photoblog" 
+                width="40" 
+            />
+            <br/>
+                Photoblog.dev
+        </a>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-list-item">
+                    <a class="header-nav-list-item-link" href="">LIFESTYLE</a>
                 </li>
                 <li>
                     <a href="">PHOTODIARY</a>
@@ -25,17 +35,17 @@
         </nav>
     </header>
     <main>
-        <section>
-            <!-- <h2>Photoblog</h2> -->
-            <ul>
-                <li>
-                    <img 
+        <section class="section-galleri">
+            <h2 class="galleri-title">Photoblog</h2>
+            <ul class="galleri-list">
+                <li class="galleri-item">
+                    <img class="galleri-img" 
                     src="./images/img1.jpg" 
                     alt="photo1">
                     <div>
-                     <a href="">LIFESTYLE</a>
-                     <h3>More than just a music festival</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur 
+                     <a class="galleri-link" href="">LIFESTYLE</a>
+                     <h3 class="galleri-list-title">More than just a music festival</h3>
+                     <p class="galleri-text">Lorem ipsum dolor sit amet, consectetur 
                         adipisicing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud 
@@ -43,14 +53,14 @@
                      </p>
                     </div>
                 </li>
-                <li>
-                <img 
+                <li class="galleri-item">
+                <img class="galleri-img"
                 src="./images/img2.jpg" 
                 alt="photo2">
                 <div>
-                 <a href="">LIFESTYLE</a>
-                 <h3>Life tastes better with coffee</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur 
+                 <a class="galleri-link" href="">LIFESTYLE</a>
+                 <h3 class="galleri-list-title">Life tastes better with coffee</h3>
+                 <p class="galleri-text">Lorem ipsum dolor sit amet, consectetur 
                     adipisicing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud 
@@ -58,14 +68,14 @@
                 </p>
                 </div>
                 </li>
-                <li>
-                <img 
+                <li class="galleri-item">
+                <img class="galleri-img"
                 src="./images/img3.jpg" 
                 alt="photo2">
                 <div>
-                 <a href="">LIFESTYLE</a>
-                 <h3>American dream</h3>
-                 <p>Lorem ipsum dolor sit amet, consectetur 
+                 <a class="galleri-link" href="">LIFESTYLE</a>
+                 <h3 class="galleri-list-title">American dream</h3>
+                 <p class="galleri-text">Lorem ipsum dolor sit amet, consectetur 
                     adipisicing elit, sed do eiusmod tempor 
                     incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud 
@@ -73,14 +83,14 @@
                 </p>
                 </div>
                 </li>
-                <li>
-                    <img 
+                <li class="galleri-item">
+                    <img class="galleri-img"
                     src="./images/img4.jpg" 
                     alt="photo2">
                     <div>
-                     <a href="">LIFESTYLE</a>
-                     <h3>A day exploring the Alps</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur 
+                     <a class="galleri-link" href="">LIFESTYLE</a>
+                     <h3 class="galleri-list-title">A day exploring the Alps</h3>
+                     <p class="galleri-text">Lorem ipsum dolor sit amet, consectetur 
                         adipisicing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud 
@@ -88,14 +98,14 @@
                     </p>
                     </div>
                 </li>
-                <li>
-                    <img 
+                <li class="galleri-item">
+                    <img class="galleri-img" 
                     src="./images/img5.jpg" 
                     alt="photo2">
                     <div>
-                     <a href="">LIFESTYLE</a>
-                     <h3>Top 10 song for running</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur 
+                     <a class="galleri-link" href="">LIFESTYLE</a>
+                     <h3 class="galleri-list-title">Top 10 song for running</h3>
+                     <p class="galleri-text">Lorem ipsum dolor sit amet, consectetur 
                         adipisicing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud 
@@ -103,14 +113,14 @@
                     </p>
                     </div>
                 </li>
-                <li>
-                    <img 
+                <li class="galleri-item">
+                    <img class="galleri-img" 
                     src="./images/img6.jpg" 
                     alt="photo2">
                     <div>
-                     <a href="">LIFESTYLE</a>
-                     <h3>Cold winter days</h3>
-                     <p>Lorem ipsum dolor sit amet, consectetur 
+                     <a class="galleri-link" href="">LIFESTYLE</a>
+                     <h3 class="galleri-list-title">Cold winter days</h3>
+                     <p class="galleri-text">Lorem ipsum dolor sit amet, consectetur 
                         adipisicing elit, sed do eiusmod tempor 
                         incididunt ut labore et dolore magna aliqua. 
                         Ut enim ad minim veniam, quis nostrud 
@@ -119,7 +129,7 @@
                     </div>
                 </li>
             </ul>
-            <button type="button">Load more</button>
+            <button class="button" type="button">Load more</button>
         </section>
     </main>
 </body>
