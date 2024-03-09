@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photoblog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
+        <div class="container">
         <a class="header-link" href="./">
             <img class="header-link-img"
                 src="https://img.icons8.com/officel/40/stack-of-photos.png" 
@@ -25,20 +28,22 @@
                 <li class="header-nav-list-item">
                     <a class="header-nav-list-item-link" href="">LIFESTYLE</a>
                 </li>
-                <li>
+                <li class="header-nav-list-item">
                     <a class="header-nav-list-item-link" href="">PHOTODIARY</a>
                 </li>
-                <li>
+                <li class="header-nav-list-item">
                     <a class="header-nav-list-item-link" href="">MUSIC</a>
                 </li>
-                <li>
+                <li class="header-nav-list-item">
                     <a class="header-nav-list-item-link" href="">TRAVEL</a>
                 </li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
         <section class="section-galleri">
+            <div class="container">
             <h2 class="galleri-title">Photoblog</h2>
             <ul class="galleri-list">
                 <li class="galleri-item">
@@ -133,6 +138,7 @@
                 </li>
             </ul>
             <button class="button" type="button">Load more</button>
+            </div>
         </section>
     </main>
 </body>

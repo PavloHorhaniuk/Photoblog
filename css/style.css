@@ -9,6 +9,11 @@ body{
     /* font-weight: 400; */
     color: var(--color-main);
 }
+.container{
+    width: 905px;
+    margin: 0 auto;
+    outline: solid 2px red;
+}
 .header-nav-list-item-link{
     /* font-family: "Playfair Display", sans-serif; */
     /* font-weight: 400; */
@@ -41,4 +46,12 @@ body{
     font-weight: 400;
     font-size: 14px;
     color: var(--color-main)
+}
+.galleri-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.galleri-item{
+    width: 420px;
 }
